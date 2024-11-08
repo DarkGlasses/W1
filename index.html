@@ -1,75 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progressive Web Applications</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Progressive Web Application</title>
 </head>
-<body>
-    <div>
 
-        <!--navigations-->
-        <nav>
+<body>
+
+    <div class="wrapper">
+        <!--  nav ใช้ควบคุม css  -->
+        <nav class="main-nav">
             <ul>
-                <li><a href="#"></a>Home</li>
-                <li><a href="#"></a>About</li>
-                <li><a href="#"></a>Sevice</li>
-                <li><a href="#"></a>contact</li>
+                <!-- li*4>a คำสั่งลัด -->
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Service</a></li>
+                <li><a href="">Contact</a></li>
             </ul>
         </nav>
-
-        <!--Content-->
-        <section>
-            <header>
-                <h1>You Web Precence</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, placeat repellat! Itaque accusantium esse enim, voluptate cupiditate, ab sit quasi nam maxime ea eum? Unde dolores quaerat inventore culpa quis.</p>
-                <a href="#">Read more</a>
+        <!-- section ใช้แบ่งเนื้อหาแต่ละส่วน -->
+        <section class="top-container">
+            <!-- header คือ card แสดงเนื้อหาหลัก -->
+            <header class="hero-sections">
+                <h1>Your Web Presence</h1>
+                <!-- lorem15 สามารถกำหนดความยาวของข้อความได้ -->
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dolore ipsa consequuntur saepe quod
+                    ducimus.</p>
+                <a href="#" class="btn">Read More</a>
             </header>
-            <div>
+            <!-- div เป็นการสร้างกรอบห้ข้อมูล -->
+            <div class="top-box top-box-a">
                 <h4>Membership</h4>
-                <p>#199/mo</p>
-                <a href="#">Buy now</a>
+                <p>#199/moth</p>
+                <a href="" class="btn">Buy Now</a>
             </div>
-            <div>
-                <h4>Premium/Membership</h4>
-                <p>#1299/mo</p>
-                <a href="#">Buy now</a>
-            </div>
-        </section>
-
-        <section>
-            <div>
-                <h3>Analytics</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi veniam odio fuga sequi voluptatem adipisci eaque atque, eum ducimus similique mollitia soluta, temporibus et rerum eveniet quae dolorem repellendus labore!</p>
-            </div>
-            <div>
-                <h3>Analytics</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi veniam odio fuga sequi voluptatem adipisci eaque atque, eum ducimus similique mollitia soluta, temporibus et rerum eveniet quae dolorem repellendus labore!</p>
-            </div>
-            <div>
-                <h3>Analytics</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi veniam odio fuga sequi voluptatem adipisci eaque atque, eum ducimus similique mollitia soluta, temporibus et rerum eveniet quae dolorem repellendus labore!</p>
-            </div>
-            <div>
-                <h3>Analytics</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi veniam odio fuga sequi voluptatem adipisci eaque atque, eum ducimus similique mollitia soluta, temporibus et rerum eveniet quae dolorem repellendus labore!</p>
-            </div>
-        </section>
-        
-        <!--Info Section-->
-        <section>
-            <img src="" alt="">
-            <div>
-                <h2>Out Service</h2>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ducimus soluta tempore rem sapiente dolore voluptates expedita unde eius in enim sit molestiae necessitatibus, perferendis adipisci reiciendis aliquid. Quibusdam, rem?
-                <a href="">Learn more</a>
+            <div class="top-box top-box-b">
+                <h4>Premium Membership</h4>
+                <p>#1199/moth</p>
+                <a href="" class="btn">Buy Now</a>
             </div>
         </section>
 
+        <!-- section ในส่วนใต้ herder -->
+        <section class="boxes">
+            <div class="box">
+                <h3>Analytis</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores quaerat animi hic, iusto soluta
+                    totam!</p>
+            </div>
+            <div class="box">
+                <h3>Analytis</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores quaerat animi hic, iusto soluta
+                    totam!</p>
+            </div>
+            <div class="box">
+                <h3>Analytis</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores quaerat animi hic, iusto soluta
+                    totam!</p>
+            </div>
+            <div class="box">
+                <h3>Analytis</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores quaerat animi hic, iusto soluta
+                    totam!</p>
+            </div>
+        </section>
+
+        <section class="info">
+            <img src="https://img.freepik.com/free-photo/planet-earth-background_23-2150564685.jpg?ga=GA1.1.293282020.1730730046&semt=ais_hybrid" alt=""
+                style="width: 100%">
+            <div>
+                <h2>Ouy Service</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste obcaecati repellat similique quo
+                    consequatur unde?</p>
+                <a href="" class="btn">Lern More</a>
+            </div>
+        </section>
         <footer>
-            <p>Sitthichok Kiddee &copy;2024</p>
+            <p>Sitthichok Sangsawang &copy;2024 </p>
         </footer>
     </div>
+
+
 </body>
+
 </html>
