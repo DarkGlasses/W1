@@ -176,7 +176,6 @@ footer{
 }
 
 @media(max-width:550px){
-    
     .top-container{
         grid-template-areas: 
         'hero-sections'
